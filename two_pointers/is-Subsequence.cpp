@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -14,3 +17,10 @@ public:
         return sp == s.length();
     }
 };
+
+int main(){
+    Soluation sol;
+    string s ="abc", t ="ahbgdc";
+    cout<<sol.isSubsequence(s,t);
+    return 0;
+}
